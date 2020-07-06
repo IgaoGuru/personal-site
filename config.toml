@@ -1,0 +1,30 @@
+baseurl                  = "https://example.com"           # Your domain name
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Call me Sam"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+
+
+
+[[params.mainMenu]]
+    link = ""
+    text = "Hi, I'm Igor."
+
+[[params.mainMenu]]
+    link = "posts/code-poetry"
+    text = "goals."
+
+[[params.mainMenu]]
+    link = "achievementshub"
+    text = "achievements."
+
+[[params.mainMenu]]
+    link = "awards"
+    text = "awards & certificates."
+
+[[params.mainMenu]]
+    link = "contact"
+    text = "contact."
