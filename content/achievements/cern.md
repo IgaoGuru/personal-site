@@ -3,6 +3,7 @@ title: "CERN - Advanced Physics."
 date: 2018-02-19T12:41:46-05:00
 images:
     - /posts/cern.jpg
+    - /posts/physics.jpeg
 ---
 
 ![Ideas](/posts/cern.jpg)
@@ -19,4 +20,4 @@ In 2019, as the culmination of the program, the study group visited CERN, the wo
 
 While there, one of my favorite moments by far was when we found John Ellis, a maxwell medal winning physicist, in the cafeteria! We took photos with him, and he sent a message to the people in Brazil.
 
-
+![Ideas](/posts/physics.jpeg)

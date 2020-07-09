@@ -9,5 +9,4 @@ images:
 
 ###  Brief summary:
 
-In july 2019, I was awarded a one month full STEM scholarship in Cairo, Egypt, as part of a colaboration between AFS and BP. While there, I visited many universities and laboratories, while also taking classes in mathematics, physics and chemestry.
-
+While in Cairo (through AFS, in 2019), I also took a course on microbiology and water treatment cycles. The week-long program had us sleeping in the universitie's dorms, and featured many interesting experiments and demonstrations. Many of the experiments were directly involved in the process of water treatment, like purification, ph treatments and others. Additionaly, we had lessons regarding virology and bacteriology, my favorite being the experiments with E. coli bacteria, and it's colony growth in different conditions. 
