@@ -7,6 +7,7 @@ images:
     - /posts/3courseraML.jpg
     - /posts/4Cern.jpg
     - /posts/5.jpg
+maxWidth: "800x"
 ---
 
 Hi there! This is where you can find all my certificates, awards, and other images related to my work!
