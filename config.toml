@@ -10,11 +10,11 @@ pygmentsCodefences       = true
 
 
 [[params.mainMenu]]
-    link = ""
+    link = "hiimigor"
     text = "Hi, I'm Igor."
 
 [[params.mainMenu]]
-    link = "posts/code-poetry"
+    link = "goals"
     text = "goals."
 
 [[params.mainMenu]]
