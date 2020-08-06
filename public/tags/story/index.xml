@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>story on Call me Sam</title>
+    <link>https://example.com/tags/story/</link>
+    <description>Recent content in story on Call me Sam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Feb 2018 12:32:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oh, Alice</title>
+      <link>https://example.com/posts/oh-alice/</link>
+      <pubDate>Fri, 09 Feb 2018 12:32:12 -0500</pubDate>
+      
+      <guid>https://example.com/posts/oh-alice/</guid>
+      <description>Nor did such soothing scenes, however temporary, fail of at least as temporary an effect on Ahab. But if these secret golden keys did seem to open in him his own secret golden treasuries, yet did his breath upon them prove but tarnishing. Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw.</description>
+    </item>
+    
+  </channel>
+</rss>

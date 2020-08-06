@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Call me Sam</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Call me Sam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Mar 2018 20:18:53 -0500</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Video post</title>
+      <link>https://example.com/posts/video-post/</link>
+      <pubDate>Fri, 16 Mar 2018 20:18:53 -0500</pubDate>
+      
+      <guid>https://example.com/posts/video-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pharetra magna ac placerat vestibulum lectus mauris. Eget lorem dolor sed viverra ipsum. Elementum nisi quis eleifend quam adipiscing. Aliquet nec ullamcorper sit amet risus. Auctor neque vitae tempus quam pellentesque. Tincidunt lobortis feugiat vivamus at augue.</description>
+    </item>
+    
+    <item>
+      <title>_Long_ Form Post</title>
+      <link>https://example.com/long-form-post/</link>
+      <pubDate>Thu, 08 Mar 2018 20:18:53 -0500</pubDate>
+      
+      <guid>https://example.com/long-form-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pharetra magna ac placerat vestibulum lectus mauris. Eget lorem dolor sed viverra ipsum. Elementum nisi quis eleifend quam adipiscing. Aliquet nec ullamcorper sit amet risus. Auctor neque vitae tempus quam pellentesque. Tincidunt lobortis feugiat vivamus at augue.</description>
+    </item>
+    
+    <item>
+      <title>Achievements.</title>
+      <link>https://example.com/achievementshub/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievementshub/</guid>
+      <description>Hi! Here you will find some of the projects and endeavors that I&amp;rsquo;m most proud of.
+  AI Research   BP Global STEM Academies - Egypt   Zewail City Microbiology Course   CERN - Advanced Physics   STEM Tutoring and Classes   </description>
+    </item>
+    
+    <item>
+      <title>AI Research</title>
+      <link>https://example.com/achievements/airesearch/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/airesearch/</guid>
+      <description>Brief summary: Since the beggining of 2019, I&amp;rsquo;ve been working on AI driven research projects.
+Paulo Abelha, a PhD in Machine Learning and Computer Vision, is leading me through the reasearch process, while giving me mentorship and guidance for my research.
+Currently , the main focus of the project revolves around applying artificial intelligence to video games. Making machines that can understand information presented on the screen, and provide accurate feedback regarding the position of targets.</description>
+    </item>
+    
+    <item>
+      <title>Awards and Certificates.</title>
+      <link>https://example.com/awards/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/awards/</guid>
+      <description>Hi there! This is where you can find all my certificates, awards, and other images related to my work!
+You can click here to read more about this award! You can click here to read more about this award! Completed with a 96.9% grade.
+You can click here to verify this certificate! You can click here to read more about this certificate! </description>
+    </item>
+    
+    <item>
+      <title>Bp Global STEM Academies.</title>
+      <link>https://example.com/achievements/bpglobalstem/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/bpglobalstem/</guid>
+      <description>Bp Global STEM Academies - Egypt 2019 You can click here to see more photos!
+Brief summary: In july 2019, I was awarded a one month full STEM scholarship in Cairo, Egypt, as part of a colaboration between AFS and BP. While there, I visited many universities and laboratories, while also taking classes in mathematics, physics and chemestry.
+The program aims to select students between 15 and 17, who have great interest in STEM, and want to create impact in their communities, with interdisciplinary thinking.</description>
+    </item>
+    
+    <item>
+      <title>CERN - Advanced Physics.</title>
+      <link>https://example.com/achievements/cern/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/cern/</guid>
+      <description>Brief summary: Throughout 2018 and 2019, I took advanced physics classes at my school.
+We studied topics such as elemental particles, basics of particle acceleration, physics of light and other forms of radiation.
+Many researchers also gave talks, as part of the program. Among them, were people from CBPF (Brazilian Center of Physics Research) and UFRJ (one of the most prestigious academic institutions in Brazil).
+In 2019, as the culmination of the program, the study group visited CERN, the world&amp;rsquo;s biggest particle accelerator, in Switzerland.</description>
+    </item>
+    
+    <item>
+      <title>Contact.</title>
+      <link>https://example.com/contact/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/contact/</guid>
+      <description>Hi! This is where you can find all my contact info, as well as some of my social media! You can find me at:
+  (email) Igorlongorocha@protonmail.com
+  github @IgaoGuru
+  Thanks for passing by! :) </description>
+    </item>
+    
+    <item>
+      <title>Goals.</title>
+      <link>https://example.com/goals/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/goals/</guid>
+      <description>Short term goals:   Engage in research projects (especially in AI).
+  Improve upon my current project on a CS:GO Neural Network implementation
+  Study Computer Science, at a university I identify with (2022).
+  </description>
+    </item>
+    
+    <item>
+      <title>Hi, I&#39;m Igor.</title>
+      <link>https://example.com/hiimigor/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/hiimigor/</guid>
+      <description>I&amp;rsquo;m a 16 year old brazilian student who&amp;rsquo;s very interested in maths, computers, and artificial intelligence!
+I hope this site gives you an idea of who I am, not only academically, but also as a person. Below, you can find some of my values and beliefs.
+  Work with people I believe in, promoting diversity in ideas and opinions, including ones I disagree with.
+  Always be open to change my mind and accept new points of view.</description>
+    </item>
+    
+    <item>
+      <title>STEM Tutoring and Classes.</title>
+      <link>https://example.com/achievements/stemtutoring/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/stemtutoring/</guid>
+      <description>Brief summary: Since 2018, I&amp;rsquo;ve been giving private tutoring lessons on math, physics and chemestry to other students and peers. Also in 2018, I started teaching classes on these subjects, on school after-hours.
+As my interest in teaching grew, I started to search for more opportunities to share and learn. In 2020, I started teaching math classes at a community driven non-profit organization, that helps students from lower socio-economic standpoits get into their desired universities, through extremely low-cost classes with volunteer teachers.</description>
+    </item>
+    
+    <item>
+      <title>Zewail City Micro-Biology Course.</title>
+      <link>https://example.com/achievements/zewailcity/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/zewailcity/</guid>
+      <description>Brief summary: While in Cairo (through AFS, in 2019), I also took a course on microbiology and water treatment cycles. The week-long program had us sleeping in the universitie&amp;rsquo;s dorms, and featured many interesting experiments and demonstrations. Many of the experiments were directly involved in the process of water treatment, like purification, ph treatments and others. Additionaly, we had lessons regarding virology and bacteriology, my favorite being the experiments with E.</description>
+    </item>
+    
+    <item>
+      <title>`Code` Poetry</title>
+      <link>https://example.com/posts/code-poetry/</link>
+      <pubDate>Tue, 13 Feb 2018 13:56:12 -0500</pubDate>
+      
+      <guid>https://example.com/posts/code-poetry/</guid>
+      <description>Pseudo code poem.
+if (this === that): try write_new_poem() except not_a_poet as e: return e e cummings?
+console.log(&amp;#39;eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&amp;#39;) An embedded gist using shortcode:
+ </description>
+    </item>
+    
+    <item>
+      <title>Oh, Alice</title>
+      <link>https://example.com/posts/oh-alice/</link>
+      <pubDate>Fri, 09 Feb 2018 12:32:12 -0500</pubDate>
+      
+      <guid>https://example.com/posts/oh-alice/</guid>
+      <description>Nor did such soothing scenes, however temporary, fail of at least as temporary an effect on Ahab. But if these secret golden keys did seem to open in him his own secret golden treasuries, yet did his breath upon them prove but tarnishing. Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw.</description>
+    </item>
+    
+    <item>
+      <title>A Poem</title>
+      <link>https://example.com/posts/a-poem/</link>
+      <pubDate>Thu, 01 Feb 2018 12:35:11 -0500</pubDate>
+      
+      <guid>https://example.com/posts/a-poem/</guid>
+      <description>Now pleasing sleep had seal&amp;rsquo;d each mortal eye,
+Stretch&amp;rsquo;d in the tents the Grecian leaders lie:
+The immortals slumber&amp;rsquo;d on their thrones above;
+All, but the ever-wakeful eyes of Jove.(76)
+To honour Thetis&amp;rsquo; son he bends his care,
+And plunge the Greeks in all the woes of war:
+Then bids an empty phantom rise to sight,
+And thus commands the vision of the night.
+&amp;ldquo;Fly hence, deluding Dream! and light as air,(77)</description>
+    </item>
+    
+  </channel>
+</rss>
