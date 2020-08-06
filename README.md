@@ -1,2 +1,3 @@
-# dotfiles
-all my *nix dotfiles! Pretty messy but it sure works :)
+# Hugo files for website
+
+not much, but its honest work
