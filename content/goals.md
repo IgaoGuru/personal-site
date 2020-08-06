@@ -7,7 +7,7 @@ images:
 
 ### Short term goals:
 
-* Engage in research projects (especially in AI).
+* Engage in new in research projects (especially in AI).
 
 * Improve upon my current project on a [CS:GO Neural Network implementation](/achievements/airesearch)
 

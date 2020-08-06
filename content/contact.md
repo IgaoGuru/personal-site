@@ -12,7 +12,6 @@ You can find me at:
 
 * [github](https://github.com/IgaoGuru) @IgaoGuru
 
-
 Thanks for passing by! :)
 ![Ideas](/posts/carrinho.jpg)
 

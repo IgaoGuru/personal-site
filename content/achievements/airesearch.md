@@ -11,7 +11,7 @@ images:
 
 Since the beggining of 2019, I've been working on AI driven research projects.
 
-Paulo Abelha, a PhD in Machine Learning and Computer Vision, is leading me through the reasearch process, while giving me mentorship and guidance for my research.
+Paulo Abelha, a PhD in Machine Learning and Computer Vision, is leading me through the research process, mentoring and giving me guidance for my research.
 
 Currently , the main focus of the project revolves around applying artificial intelligence to video games. Making machines that can understand information presented on the screen, and provide accurate feedback regarding the position of targets.
 
