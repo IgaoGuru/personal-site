@@ -18,3 +18,5 @@ I hope this site gives you an idea of who I am, not only academically, but also 
 
 These are closely linked with what I want to pursue in my life, 
 [click here](/goals) to see my goals.
+
+My native language is **Portuguese**, but I love learning new languages. I speak fluent **English**, and I'm currently learning **Mandarin** and **German**. 

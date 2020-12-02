@@ -6,8 +6,6 @@ images:
     - /posts/afspage.png
 ---
 
-## Bp Global STEM Academies - Egypt 2019
-
 ![Ideas](/posts/camelo.jpg)
 
 You can click [here](/bpstemgallery) to see more photos!

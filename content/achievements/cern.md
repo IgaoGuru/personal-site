@@ -9,7 +9,7 @@ images:
 ![Ideas](/posts/cern.jpg)
 
 ###  Brief summary:
-Throughout 2018 and 2019, I took advanced physics classes at my school.
+Throughout 2018, 2019 and 2020, I took advanced physics classes at my school.
 
 We studied topics such as elemental particles, basics of particle acceleration, physics of light and other forms of radiation.
 

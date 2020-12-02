@@ -22,6 +22,10 @@ pygmentsCodefences       = true
     text = "achievements."
 
 [[params.mainMenu]]
+    link = "airesearch"
+    text = "AI research."
+
+[[params.mainMenu]]
     link = "awards"
     text = "awards & certificates."
 
