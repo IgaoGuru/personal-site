@@ -6,29 +6,14 @@
     <description>Recent content in Achievements. on Call me Sam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Feb 2018 12:41:46 -0500</lastBuildDate>
-    
-	<atom:link href="https://example.com/achievements/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>AI Research</title>
-      <link>https://example.com/achievements/airesearch/</link>
-      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
-      
-      <guid>https://example.com/achievements/airesearch/</guid>
-      <description>Brief summary: Since the beggining of 2019, I&amp;rsquo;ve been working on AI driven research projects.
-Paulo Abelha, a PhD in Machine Learning and Computer Vision, is leading me through the reasearch process, while giving me mentorship and guidance for my research.
-Currently , the main focus of the project revolves around applying artificial intelligence to video games. Making machines that can understand information presented on the screen, and provide accurate feedback regarding the position of targets.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 19 Feb 2018 12:41:46 -0500</lastBuildDate><atom:link href="https://example.com/achievements/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bp Global STEM Academies.</title>
       <link>https://example.com/achievements/bpglobalstem/</link>
       <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
       
       <guid>https://example.com/achievements/bpglobalstem/</guid>
-      <description>Bp Global STEM Academies - Egypt 2019 You can click here to see more photos!
+      <description>You can click here to see more photos!
 Brief summary: In july 2019, I was awarded a one month full STEM scholarship in Cairo, Egypt, as part of a colaboration between AFS and BP. While there, I visited many universities and laboratories, while also taking classes in mathematics, physics and chemestry.
 The program aims to select students between 15 and 17, who have great interest in STEM, and want to create impact in their communities, with interdisciplinary thinking.</description>
     </item>
@@ -39,10 +24,20 @@ The program aims to select students between 15 and 17, who have great interest i
       <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
       
       <guid>https://example.com/achievements/cern/</guid>
-      <description>Brief summary: Throughout 2018 and 2019, I took advanced physics classes at my school.
+      <description>Brief summary: Throughout 2018, 2019 and 2020, I took advanced physics classes at my school.
 We studied topics such as elemental particles, basics of particle acceleration, physics of light and other forms of radiation.
 Many researchers also gave talks, as part of the program. Among them, were people from CBPF (Brazilian Center of Physics Research) and UFRJ (one of the most prestigious academic institutions in Brazil).
 In 2019, as the culmination of the program, the study group visited CERN, the world&amp;rsquo;s biggest particle accelerator, in Switzerland.</description>
+    </item>
+    
+    <item>
+      <title>OBI - Finalist in Brazil&#39;s National Olympiad in Informatics</title>
+      <link>https://example.com/achievements/obi/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/obi/</guid>
+      <description>Brief summary: Throughout 2020, I competed in all phases of OBI, Brazil&amp;rsquo;s National Olympiad in Informatics.
+As the results for the finalist phase have yet to annouced, the certificates too are not yet available - and will be displayed in the awards and certificates page once they are released.</description>
     </item>
     
     <item>
