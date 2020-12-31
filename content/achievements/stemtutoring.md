@@ -2,10 +2,10 @@
 title: "STEM Tutoring and Classes."
 date: 2018-02-19T12:41:46-05:00
 images:
-    - /posts/lab1.jpg
+    - /posts/aulaigao.jpg
 ---
 
-![Ideas](/posts/aulaigao.png)
+![Ideas](/posts/aulaigao.jpg)
 
 ###  Brief summary:
 
