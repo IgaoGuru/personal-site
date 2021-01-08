@@ -28,11 +28,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2018-02-19T12:41:46-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/achievements/cern/</loc>
     <lastmod>2018-02-19T12:41:46-05:00</lastmod>
   </url>
@@ -48,12 +43,22 @@
   </url>
   
   <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2018-02-19T12:41:46-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/hiimigor/</loc>
     <lastmod>2018-02-19T12:41:46-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/achievements/obi/</loc>
+    <lastmod>2018-02-19T12:41:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/achievements/osciloscope/</loc>
     <lastmod>2018-02-19T12:41:46-05:00</lastmod>
   </url>
   

@@ -13,4 +13,6 @@ Hi! Here you will find some of the projects and endeavors that I'm most proud of
 
 * # [STEM Tutoring and Classes](/achievements/stemtutoring)
 
+* # [Osciloscope Music Talk](/achievements/osciloscope)
+
 * # [Zewail City Microbiology Course](/achievements/zewailcity)

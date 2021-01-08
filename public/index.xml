@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Call me Sam</title>
+    <title>Hi, I&#39;m Igor.</title>
     <link>https://example.com/</link>
-    <description>Recent content on Call me Sam</description>
+    <description>Recent content on Hi, I&#39;m Igor.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Feb 2018 12:41:46 -0500</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,7 @@
       
       <guid>https://example.com/achievementshub/</guid>
       <description>Hi! Here you will find some of the projects and endeavors that I&amp;rsquo;m most proud of.
-  BP Global STEM Academies - Egypt   OBI - Finalist at Brazil&amp;rsquo;s National Olympiad in Informatics   CERN - Advanced Physics   STEM Tutoring and Classes   Zewail City Microbiology Course   </description>
+  BP Global STEM Academies - Egypt   OBI - Finalist at Brazil&amp;rsquo;s National Olympiad in Informatics   CERN - Advanced Physics   STEM Tutoring and Classes   Osciloscope Music Talk   Zewail City Microbiology Course   </description>
     </item>
     
     <item>
@@ -107,6 +107,16 @@ I hope this site gives you an idea of who I am, not only academically, but also 
       <guid>https://example.com/achievements/obi/</guid>
       <description>Brief summary: Throughout 2020, I competed in all phases of OBI, Brazil&amp;rsquo;s National Olympiad in Informatics.
 As the results for the finalist phase have yet to annouced, the certificates too are not yet available - and will be displayed in the awards and certificates page once they are released.</description>
+    </item>
+    
+    <item>
+      <title>Osciloscope Music Talk</title>
+      <link>https://example.com/achievements/osciloscope/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/osciloscope/</guid>
+      <description>In the end of 2019, I got to talk a bit about two topics that are very dear to me. Physics, and music. Through the lens of &amp;ldquo;Osciloscope Music&amp;rdquo;, I present many different physics concepts in acoustics, while weaving the narrative around fun drawings and music history. Although the talk was given in Brazilian Portuguese, there are subtitles available.
+  Some of the topics and questions covered in the video:</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Achievements. on Call me Sam</title>
+    <title>Achievements. on Hi, I&#39;m Igor.</title>
     <link>https://example.com/achievements/</link>
-    <description>Recent content in Achievements. on Call me Sam</description>
+    <description>Recent content in Achievements. on Hi, I&#39;m Igor.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Feb 2018 12:41:46 -0500</lastBuildDate><atom:link href="https://example.com/achievements/index.xml" rel="self" type="application/rss+xml" />
@@ -38,6 +38,16 @@ In 2019, as the culmination of the program, the study group visited CERN, the wo
       <guid>https://example.com/achievements/obi/</guid>
       <description>Brief summary: Throughout 2020, I competed in all phases of OBI, Brazil&amp;rsquo;s National Olympiad in Informatics.
 As the results for the finalist phase have yet to annouced, the certificates too are not yet available - and will be displayed in the awards and certificates page once they are released.</description>
+    </item>
+    
+    <item>
+      <title>Osciloscope Music Talk</title>
+      <link>https://example.com/achievements/osciloscope/</link>
+      <pubDate>Mon, 19 Feb 2018 12:41:46 -0500</pubDate>
+      
+      <guid>https://example.com/achievements/osciloscope/</guid>
+      <description>In the end of 2019, I got to talk a bit about two topics that are very dear to me. Physics, and music. Through the lens of &amp;ldquo;Osciloscope Music&amp;rdquo;, I present many different physics concepts in acoustics, while weaving the narrative around fun drawings and music history. Although the talk was given in Brazilian Portuguese, there are subtitles available.
+  Some of the topics and questions covered in the video:</description>
     </item>
     
     <item>
