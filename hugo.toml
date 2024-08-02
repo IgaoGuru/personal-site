@@ -19,9 +19,9 @@ author = 'Igor'
         name = "github"
         url = 'https://github.com/IgaoGuru'
 
-    [[params.homeInfoParams]]
-        Title = "Hi there 👋"
-        Content = 'anything and everything'
+    # [[params.homeInfoParams]]
+    #     Title = "Hi there 👋"
+    #     Content = 'anything and everything'
 
 
 [menu]
