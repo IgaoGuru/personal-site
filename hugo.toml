@@ -1,0 +1,43 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Igor's blog"
+theme = ['PaperMod']
+
+enableRobotsTXT = true
+env = 'production' # to enable google analytics, opengraph, twitter-cards and schema.
+author = 'Igor'
+
+[params]
+    mainSections = ["post"]
+    headline = "Code, samba, and much more!"
+    description = "Thanks for passing by!"
+    dateFormat = "Jan 2, 2006"
+
+    comments = true
+    
+    [[params.socialIcons]]
+        name = "github"
+        url = 'https://github.com/IgaoGuru'
+
+    [[params.homeInfoParams]]
+        Title = "Hi there 👋"
+        Content = 'anything and everything'
+
+
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "example"
+    name = "example.org"
+    url = "https://example.org"
+    weight = 30
