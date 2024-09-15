@@ -1,0 +1,31 @@
+languageCode = 'en-us'
+title = "Igor's blog"
+theme = ['PaperMod']
+
+enableRobotsTXT = true
+env = 'production' # to enable google analytics, opengraph, twitter-cards and schema.
+author = 'Igor'
+
+[params]
+    mainSections = ["post"]
+    headline = "Code, samba, spirituality and a few other things"
+    description = "Thanks for passing by!"
+    dateFormat = "Jan 2, 2006"
+
+    comments = true
+    
+    [[params.socialIcons]]
+        name = "github"
+        url = 'https://github.com/IgaoGuru'
+
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20

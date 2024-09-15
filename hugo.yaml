@@ -1,0 +1,48 @@
+languageCode: 'en-us'
+title: "Igor's blog"
+theme: 
+  - PaperMod
+
+enableRobotsTXT: true
+env: 'production'  # to enable google analytics, opengraph, twitter-cards and schema.
+author: 'Igor'
+
+params:
+  images: ['abrolhos.jpg']
+  mainSections:
+    - post
+  headline: "The world is your oyster. I just happen to be living on it"
+  description: "Thanks for passing by!"
+  dateFormat: "Jan 2, 2006"
+  comments: true
+  socialIcons:
+    - name: "github"
+      url: 'https://github.com/IgaoGuru'
+    
+  label:
+    text: "Igor's Blog"
+    icon: /abrolhos.png
+    iconHeight: 35
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/safari-pinned-tab.svg"
+  
+  homeInfoMode:
+    enabled: true
+
+  homeInfoParams:
+    Title: 'Fala, figura : )'
+    Content: "You've found it! You've found my secret stash!\n\nFeel free to browse around and take anything you want. Just say hi if you do"
+
+menu:
+  main:
+    - identifier: "categories"
+      name: "categories"
+      url: "/categories/"
+      weight: 10
+    - identifier: "tags"
+      name: "tags"
+      url: "/tags/"
+      weight: 20
