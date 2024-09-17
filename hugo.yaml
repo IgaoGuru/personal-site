@@ -13,7 +13,7 @@ params:
   headline: "The world is your oyster. I just happen to be living on it"
   description: "Thanks for passing by!"
   dateFormat: "Jan 2, 2006"
-  comments: true
+  comments: false
   socialIcons:
     - name: "github"
       url: 'https://github.com/IgaoGuru'
