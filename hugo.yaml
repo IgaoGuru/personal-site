@@ -3,6 +3,8 @@ title: "Igor's blog"
 theme: 
   - PaperMod
 
+baseURL: "https://falso.net"
+
 enableRobotsTXT: true
 env: 'production'  # to enable google analytics, opengraph, twitter-cards and schema.
 author: 'Igor'
@@ -37,7 +39,6 @@ params:
     Content: "You've found it! You've found my secret stash!\n\nFeel free to browse around and take anything you want. Just say hi if you do"
   
   ShowAllPagesInArchive: true
-
 
 menu:
   main:

@@ -1,6 +1,6 @@
 ---
 title: "On Awareness"
-date: "2019-03-10"
+date: "2024-09-17"
 description: "a phd thesis on Mangoes"
 summary: "a phd thesis on Mangoes"
 tags: ["philosophy", "mangoes"]
