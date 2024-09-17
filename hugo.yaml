@@ -35,14 +35,23 @@ params:
   homeInfoParams:
     Title: 'Fala, figura : )'
     Content: "You've found it! You've found my secret stash!\n\nFeel free to browse around and take anything you want. Just say hi if you do"
+  
+  ShowAllPagesInArchive: true
+
 
 menu:
   main:
+    - identifier: "archive"
+      name: "archive"
+      url: "/archive/"
+      weight: 1
+
     - identifier: "categories"
       name: "categories"
       url: "/categories/"
-      weight: 10
+      weight: 2
+
     - identifier: "tags"
       name: "tags"
       url: "/tags/"
-      weight: 20
+      weight: 3
