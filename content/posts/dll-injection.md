@@ -8,10 +8,23 @@ ShowToc: true
 TocOpen: true
 ---
 
-Awareness is first and foremost about realizing that each person is a tree, planted among a big and open field. It is about the realization that most people are only ever thought to grow by hunching and hurling their branches over other neighboring trees. They are not aware that they are growing sideways, they simply believe that is the way normal trees grow. Eventually, since we grow unaware and seemingly unable to support ourselves by our own root, we go on to not only **hope** but **expect** that others will be so kind as to keep themselves growing horizontally as well, just for the maintanence of our miserable, sideways existence.
+so the other day I was cooking up a programming assignment for the `C and assembly` course I'm taking at my local, non-descript university.
 
-In most of society, there are so many trees that grow in such horizontal planes, that they form a thick wooden surface not more than a few meters high from the ground. This surface blocks all light from reaching the ground and thus there is no shade to be given, no life to sprawl, since all is dark beneath the surface.
+One of the assignments asked me to run gcc using the `-no-pie` flag. I had never seen that before and got curious about it. It turns out that it stands for `"no position independent executable`. 
 
-Awareness simply exposes the option to let these far-stretching branches go for the present moment, and to allow yourself to grow vertically, just by yourself, just for this moment, and to be curious about what shape of tree you might develop in this short span of time. You do not have to understand exactly what that means or how that happens. The most important thing is that you realize that is the natural inclination of your being, and you allow it to happen for a single present moment.
+Per [RedHat](https://www.redhat.com/en/blog/position-independent-executables-pie):
+> Position Independent Executables (PIE) are an output of the hardened package build process. A PIE binary and all of its dependencies are loaded into random locations within virtual memory each time the application is executed. This makes Return Oriented Programming (ROP) attacks much more difficult to execute reliably
 
-If your branches grow tall enough they might even grow wide as well, which might then mean that they intersect another nearby tree. This time, though, you do not depend on it to support your own weight. Though you are delighted by its visit, you accept its impermanence and are happy if your intersecting branches eventually diverge again.
+...
+
+"Return Oriented Programming"... sounds interesting, doesn't it? It even has a dedicated acronym to itself. So I went to wikipedia, and after a bit of digging, I figured that until the 2000s, hackers were able to do `buffer overruns`. In those attacks, when a function didn't perform bounds checking before storing its user-provided parameters on the stack, the hacker would provide a larger-than-expected parameter, which would then overflow into the return address and local-variable sections of the function's stack frame. Then, the hacker could simply provide an arbitrary code snippet and engineer the input to point the stackFrame's return address to the provided arbitrary code! 
+
+This kind of buffer overflow attack can still be done fairly easily on windows XP. [This](https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html) tutorial by The Grey Corner does a great job of explaining the basics.
+
+Linux systems started patching this in the mid 90's, while windows waited until **2004** to add protections. The solution was marking the memory where data (stackframe etc) is written as non-executable, a technique called `executable space protection` (ESP). 
+
+Now, hackers found a way to circumvent this. Instead of having a payload full of malicious code, you could instead send a payload that would simply trigger a series of benign code snippets that were _already present in the stack (as part of the running program)_ and use that to overwrite the return address of a given function. Now, overwriting the return address of a function is no fun if you couldn't put your own code in it as well. If it's not in the payload, where could it be?? 
+
+The answer: just use a DLL! Overwrite the return address to the address of your malicious function in a DLL you injected into the heap, and then you've got it!
+
+I wonder if [Osiris](https://github.com/danielkrupinski/Osiris), the CSGO cheat that I reverse-engineered when making [my CSGO computerVision project](https://github.com/igaoguru/sequoia) doesn't do _exactly that_ somewhere... huh...
