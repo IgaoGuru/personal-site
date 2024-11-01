@@ -25,6 +25,8 @@ params:
     
   label:
     text: "Igor's Blog"
+
+  assets:
     icon: /abrolhos.png
     iconHeight: 35
     favicon: "/favicon/favicon.ico"
