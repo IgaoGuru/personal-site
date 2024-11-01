@@ -20,6 +20,8 @@ params:
   socialIcons:
     - name: "github"
       url: 'https://github.com/IgaoGuru'
+    - name: "twitter"
+      url: 'https://twitter.com/GuruIgao'
     
   label:
     text: "Igor's Blog"
@@ -36,7 +38,7 @@ params:
 
   homeInfoParams:
     Title: 'Fala, figura : )'
-    Content: "You've found it! You've found my secret stash!\n\nFeel free to browse around and take anything you want. Just say hi if you do"
+    Content: "You've found it! You've found my secret stash!\n\nFeel free to browse around and take anything you want. Just say hi if you do.\nMy email is igorlongorocha [at] google's email handle." 
   
   ShowAllPagesInArchive: true
 
