@@ -1,0 +1,8 @@
+public
+*.DS_Store
+
+dist
+.astro
+astro
+
+src/components/median-trees/

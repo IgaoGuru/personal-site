@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import Mainframe from "../components/Mainframe.astro";
+
+let posts = Object.values(import.meta.glob('../pages/posts/*.md', { eager: true }));
+
+/*
+{"frontmatter":{"title":"First Post on Astro","author":"Igor","description":"that's that!","tags":["meta"]},"file":"/Users/igorrocha/Documents/Projects/personal-site/astro/src/pages/posts/first-post.md","url":"/posts/first-post"}
+*/
+
+console.log(`found posts: ${JSON.stringify(posts)}`)
+
+// sort posts by date
+posts.sort((a: { frontmatter: { date: string } }, b: { frontmatter: { date: string } }) => {
+    return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime();
+});
+
+// filter posts with hide: true
+posts = posts.filter((post: any) => {
+    return !post.frontmatter.hide;
+});
+
+---
+
+<head>
+    <title> essays </title>
+</head>
+
+<body>
+    <Layout>
+        <Mainframe>
+        <h1> oioi</h1>
+        {posts.map((post: any) => {
+            return <div>
+                <a href={post.url}> {post.frontmatter.title}</a> <span style="font-size: 12px; color: #666;"> {post.frontmatter.description} </span>
+            </div>
+        })}
+        </Mainframe>
+    </Layout>
+</body>

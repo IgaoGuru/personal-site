@@ -1,0 +1,21 @@
+---
+import Topbar from './Topbar.astro';
+---
+
+<style>
+    #mainframe {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+    }
+</style>
+
+<div id="mainframe">
+    <Topbar />
+    <div id="main">
+        <slot />
+    </div>
+</div>

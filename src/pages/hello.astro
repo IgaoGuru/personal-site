@@ -1,0 +1,25 @@
+---
+import Mainframe from '../components/Mainframe.astro';
+import Layout from '../layouts/Layout.astro';
+import { marked } from 'marked';
+import pfp from '../assets/pfp.png';
+---
+
+<head>
+    <title> Unbounded Temperance </title>
+</head>
+<body>
+    <Layout>
+        <Mainframe>
+            <h1> Unbounded Temperance</h1>
+            <div class="flex flex-row">
+                <img src={pfp.src} alt="Igor" />
+                <p> Hi! I'm Igor. I like computers and bossa nova.</p>
+            </div>
+
+            <p> Until September, I'm living at <a href="https://nautilus.quest">Casa Nautilus</a>, a residency for builders and artists. There I'm building <a href="https://www.webmap.sh">Webmap</a>, a tool for cherishing writing on the web.
+            <p> Before that, I was a software engineer at <a href="https://www.teachy.com">Teachy</a>: a startup for helping k-12 educators. </p>
+            <p> feel free to look around and take anything you like. Just say hi if you do :) <br> You can reach me at igor [at] falso.net or on <a href="https://x.com/GuruIgao/">twitter</a></p>
+        </Mainframe>
+    </Layout>
+</body>
