@@ -6,6 +6,7 @@ summary: "\"Don't try\", said Buko"
 tags: ["mangoes"]
 ShowToc: true
 TocOpen: true
+layout: '../../layouts/EssayLayout.astro'
 ---
 
 

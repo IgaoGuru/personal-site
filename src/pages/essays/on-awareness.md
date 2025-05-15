@@ -6,6 +6,7 @@ summary: "a phd thesis on Mangoes"
 tags: ["philosophy", "mangoes"]
 ShowToc: true
 TocOpen: true
+layout: '../../layouts/EssayLayout.astro'
 ---
 
 Awareness is first and foremost about realizing that each person is a tree, planted among a big and open field. It is about the realization that most people are only ever thought to grow by hunching and hurling their branches over other neighboring trees. They are not aware that they are growing sideways, they simply believe that is the way normal trees grow. Eventually, since we grow unaware and seemingly unable to support ourselves by our own root, we go on to not only **hope** but **expect** that others will be so kind as to keep themselves growing horizontally as well, just for the maintanence of our miserable, sideways existence.

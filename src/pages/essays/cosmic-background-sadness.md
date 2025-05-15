@@ -6,6 +6,7 @@ summary: "I'm often confronted with such a thing"
 tags: ["mangoes", "emotions", "philosophy"]
 ShowToc: true
 TocOpen: true
+layout: '../../layouts/EssayLayout.astro'
 ---
 
 I'm often confronted with such a thing.

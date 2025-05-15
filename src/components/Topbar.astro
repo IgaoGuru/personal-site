@@ -1,3 +1,6 @@
+---
+const onlyHome = Astro.props.onlyHome;
+---
 
 <style>
     #topbar {
@@ -6,16 +9,24 @@
         align-items: center;
         gap:50px
     }
+    
 </style>
 
 <div id="topbar" >
-    <a class="topbar-button" href="/hello">
-        <h1> > ~ </h1>
-    </a>
+    {onlyHome ? (
+        <a class="topbar-button" href="/hello">
+            <h1> > ~ </h1>
+        </a>
+    ) : (
+        <a class="topbar-button" href="/hello">
+            <h1> > ~ </h1>
+        </a>
+    
     <a class="topbar-button" href="/essays">
         <h1> essays </h1>
     </a>
     <a class="topbar-button" href="/projects">
         <h1> projects </h1>
     </a>
+    )}
 </div>

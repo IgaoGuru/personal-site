@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 
 import Mainframe from "../components/Mainframe.astro";
 
-let posts = Object.values(import.meta.glob('../pages/posts/*.md', { eager: true }));
+let posts = Object.values(import.meta.glob('../pages/essays/*.md', { eager: true }));
 
 /*
 {"frontmatter":{"title":"First Post on Astro","author":"Igor","description":"that's that!","tags":["meta"]},"file":"/Users/igorrocha/Documents/Projects/personal-site/astro/src/pages/posts/first-post.md","url":"/posts/first-post"}
