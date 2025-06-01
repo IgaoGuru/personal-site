@@ -1,25 +1,61 @@
 ---
-import Mainframe from '../components/Mainframe.astro';
-import Layout from '../layouts/Layout.astro';
-import { marked } from 'marked';
-import pfp from '../assets/pfp.png';
+import Mainframe from "../components/Mainframe.astro";
+import Layout from "../layouts/Layout.astro";
+import { marked } from "marked";
+import pfp from "../assets/pfp.png";
 ---
 
 <head>
-    <title> Unbounded Temperance </title>
+    <title>Unbounded Temperance</title>
 </head>
 <body>
     <Layout>
         <Mainframe>
-            <h1> Unbounded Temperance</h1>
-            <div class="flex flex-row">
-                <img src={pfp.src} alt="Igor" />
-                <p> Hi! I'm Igor. I like computers and bossa nova.</p>
+            <h1>Unbounded Temperance</h1>
+            <div style="display: flex; flex-wrap: nowrap; align-items: stretch; gap: 1rem;">
+                <!-- pfp -->
+                <div>
+                    <img src={pfp.src} alt="Igor" />
+                </div> 
+                <!-- blinkies -->
+                <div style="display: flex; flex-direction: column; align-items: flex-end; justify-content: flex-end;">
+                    <div>
+                        <img
+                            width="200"
+                            height="27"
+                            src="https://file.garden/aDx7rtkwXCXfZGMO/blinkies/blinkie-be-kind-to-ur-computer.gif"
+                            alt="be kind to your computer"
+                        />
+                    </div>
+                    <div>
+                        <img
+                            width="200"
+                            height="27"
+                            src="https://file.garden/aDx7rtkwXCXfZGMO/blinkies/blinkie-see-u-on-the-web.gif"
+                            alt="see u on the web"
+                        />
+                    </div>
+                </div>
             </div>
 
-            <p> Until September, I'm living at <a href="https://nautilus.quest">Casa Nautilus</a>, a residency for builders and artists. There I'm building <a href="https://www.webmap.sh">Webmap</a>, a tool for cherishing writing on the web.
-            <p> Before that, I was a software engineer at <a href="https://www.teachy.com">Teachy</a>: a startup for helping k-12 educators. </p>
-            <p> feel free to look around and take anything you like. Just say hi if you do :) <br> You can reach me at igor [at] falso.net or on <a href="https://x.com/GuruIgao/">twitter</a></p>
+            <p> Hi! I'm Igor. I like computers and bossa nova.</p>
+            <p>
+                Until September, I'm living at <a href="https://nautilus.quest"
+                    >Casa Nautilus</a
+                >, a residency for builders and artists. There I'm building <a
+                    href="https://www.webmap.sh">Webmap</a
+                >, a tool for cherishing writing on the web.
+                <p>
+                    Before that, I was a software engineer at <a
+                        href="https://www.teachy.com">Teachy</a
+                    >: a startup for helping k-12 educators.
+                </p>
+                <p>
+                    feel free to look around and take anything you like. Just
+                    say hi if you do :) <br /> You can reach me at igor [at] falso.net
+                    or on <a href="https://x.com/GuruIgao/">twitter</a>
+                </p>
+            </p>
         </Mainframe>
-    </Layout>
-</body>
+    </Layout></body
+>

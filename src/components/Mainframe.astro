@@ -4,17 +4,17 @@ const onlyHome = Astro.props.onlyHome;
 ---
 
 <style>
-    #mainframe {
+    .mainframe {
         width: 50%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        align-items: left;
-        justify-content: left;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 </style>
 
-<div id="mainframe">
+<div class="mainframe">
     <Topbar onlyHome={onlyHome} />
     <div id="main">
         <slot />
