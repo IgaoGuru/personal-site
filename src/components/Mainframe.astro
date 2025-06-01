@@ -9,8 +9,13 @@ const onlyHome = Astro.props.onlyHome;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        min-height: 100vh;
+    }
+
+    #main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
     }
 </style>
 
