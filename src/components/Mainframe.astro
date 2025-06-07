@@ -17,6 +17,12 @@ const onlyHome = Astro.props.onlyHome;
         display: flex;
         flex-direction: column;
     }
+
+    @media screen and (max-width: 1024px) {
+        .mainframe {
+            width: 90%;
+        }
+    }
 </style>
 
 <div class="mainframe">
