@@ -1,0 +1,337 @@
+/* Base styles */
+.app {
+  width: 100vw;
+  height: 100vh;
+  font-family: inherit;
+}
+
+/* Control Panel */
+.control-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 1000;
+  font-family: inherit;
+}
+
+.control-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.control-button:hover {
+  background-color: #357abd;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+  font-family: inherit;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  padding: 0.5rem;
+  line-height: 1;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.modal-close:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.modal-content h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.modal-content h3 {
+  color: #34495e;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.modal-content h4 {
+  color: #2c3e50;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.modal-section {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.modal-section ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  font-family: inherit;
+}
+
+.modal-section li {
+  margin: 0.5rem 0;
+  color: #4a5568;
+  font-family: inherit;
+}
+
+.modal-content p {
+  font-family: inherit;
+  line-height: 1.6;
+}
+
+.modal-content a {
+  color: #4a90e2;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  font-family: inherit;
+}
+
+.modal-content a:hover {
+  text-decoration: underline;
+}
+
+.modal-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #666;
+  font-family: inherit;
+}
+
+.modal-footer p {
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+.light .react-flow__node:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light .react-flow__node.selected {
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+}
+
+.project-node {
+  padding: 1rem;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  min-width: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.project-node-content {
+  padding: 0.5rem;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.project-description {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: #718096;
+  line-height: 1.4;
+}
+
+.task-node {
+  padding: 1rem;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  min-width: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.task-node-content {
+  padding: 0.5rem;
+}
+
+.task-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.task-description {
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+  color: #718096;
+  line-height: 1.4;
+}
+
+.task-hours {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.task-node-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-input {
+  width: 50px;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  border: none;
+  appearance: textfield;
+}
+
+.task-input:focus {
+  outline: none;
+}
+
+/* Help Button */
+.help-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+  z-index: 1000;
+  font-family: inherit;
+}
+
+.help-button:hover {
+  background-color: #357abd;
+  transform: translateX(-50%) scale(1.1);
+}
+
+/* Node styles */
+.react-flow__node {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.react-flow__node-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+/* Input styles */
+input, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+/* Button styles */
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
