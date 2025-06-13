@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 layout: '../../layouts/EssayLayout.astro'
 ---
+# DLL injection, CSGO exploits and Buffer overrunning
 
 so the other day I was cooking up a programming assignment for the `C and assembly` course I'm taking at my local, non-descript university.
 

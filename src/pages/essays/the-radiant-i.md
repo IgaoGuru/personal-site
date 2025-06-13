@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 layout: '../../layouts/EssayLayout.astro'
 ---
+# The I is Naturally Radiant
 
 
 The I is naturally radiant, vibrant. It shines like a beacon in all directions.

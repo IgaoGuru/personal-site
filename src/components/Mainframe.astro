@@ -1,6 +1,10 @@
 ---
 import Topbar from './Topbar.astro';
-const onlyHome = Astro.props.onlyHome;
+interface Props {
+    buttons?: ("home" | "essays" | "projects")[];
+}
+
+const { buttons } = Astro.props;
 ---
 
 <style>
@@ -26,7 +30,7 @@ const onlyHome = Astro.props.onlyHome;
 </style>
 
 <div class="mainframe">
-    <Topbar onlyHome={onlyHome} />
+    <Topbar buttons={buttons} />
     <div id="main">
         <slot />
     </div>

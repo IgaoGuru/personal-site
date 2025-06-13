@@ -29,11 +29,12 @@ posts = posts.filter((post: any) => {
 
 <body>
     <Layout>
-        <Mainframe>
+        <Mainframe buttons={["home", "essays"]}>
         <h1> oioi</h1>
         {posts.map((post: any) => {
             return <div>
-                <a href={post.url}> {post.frontmatter.title}</a> <span style="font-size: 12px; color: #666;"> {post.frontmatter.description} </span>
+                <a href={post.url}> {post.frontmatter.title}</a> <br /> <span style="font-size: 12px; color: #666;"> {post.frontmatter.description} </span>
+                <p></p>
             </div>
         })}
         </Mainframe>

@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 layout: '../../layouts/EssayLayout.astro'
 ---
+# I don't think I'm very good at making things
 
 ## I.
 maybe I'm being too harsh on myself. But I do truly mean it, and it hurts my heart to say it.

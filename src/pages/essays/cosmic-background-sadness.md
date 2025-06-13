@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 layout: '../../layouts/EssayLayout.astro'
 ---
+# Cosmic Background Sadness
 
 I'm often confronted with such a thing.
 
