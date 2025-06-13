@@ -60,3 +60,5 @@ When I say I'm not very good at making things, I simply mean that I'm not good a
 Again, where are we going with this? Is any of this useful, at all?
 
 Conclusion: I'll keep programming computers because I think they're cool. I have no commitment to it. If they ever stop being cool (to me), I'll stop programming them. For now, I hope I get to make a living, and hopefully study cool things throughout. 
+
+<small style="color: grey;">My thanks to Neel and Gui for proofreading this essay. Feel free to take anything with you, just say hi if you do :)</small>
