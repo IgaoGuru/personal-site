@@ -46,11 +46,11 @@ Ah, man, I wish the internet were a more civil place. It seems like we fucked up
 I dont think I'm very good at making things. But now that I think of it, maybe no one really is. 
 I've worked at top500 companies, top VC-backed startups, I've been to one of the best CS department in the world, and I've been coming to the realization that very few people are actually "cracked". Very, very few. To the point where maybe in a total of one hundred early employees at og-YC companies, maybe a handful are actually _that good at everything_. 
 	
-There is a kind of person with a stare that makes any problem find itself naked on the stage. It's that simple: they look at a problem in such a way, they strip it down so fundamentally, that the problem is now naked under the spotlight. And it spits out the answer out of embaressment, just to get out of that situation.
+There is a kind of person with a stare that makes any problem find itself naked on the stage. It's that simple: they look at the problem in such a way, they strip it down so fundamentally, that the problem is now naked under the spotlight. And it spits out the answer out of embaressment, just to get out of that situation.
 
-Even then, that's not enough because you haven't looked at _why_ poeple became good at the things they do. Especially in tech and engineering, it's usually not a good outlook. What you're basically trying to gauge is whether that person became good at tech/eng because they wanted to do philosophy and couldn't find money in it, or because they hate themselves so much that they see no other option than to keep collecting corporate or academic gold medals. There are a lot of such cases.
+Even then, that's not enough because you haven't looked at _why_ poeple became good at the things they do. Especially in tech and engineering, it's usually not a good outlook. What you're basically trying to gauge is whether that person became good at tech/eng because they wanted to do philosophy and couldn't find money in it, or because they hate themselves so much that they see no other option other than to keep collecting corporate or academic gold medals. There are a lot of such cases.
 
-I much more respect the vagabond film majors, with they pretentious new-agey outfits and third-spaces and art exhibitions. At least they are honest about having gone into film to get women. 
+I much more respect the vagabond film majors, with their pretentious new-agey outfits and third-spaces and art exhibitions. At least they are honest about having gone into film to get women. 
 
 To be truly amazing, one must have gone full circle: to have seen the value of science, to have seen how much people hate themselves, to have swung to the other side of the pendulum, and then finally to keep on developing their craft. I think I'm lost somewhere in the middle of all of this. 
 
