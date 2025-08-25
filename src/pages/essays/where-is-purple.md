@@ -55,14 +55,14 @@ Let us not forget of what is most important:
 
 That we do not know what we want.
 
----
+=== ===
 
-Friends, It’s been so, so good living here with you. I have no idea whether I’ll get an O-1. I have no idea if the company will work out. But I believe none of this matters. This is the last show and tell and so I wanted to show 
-
+<p style="color: grey;">
+Friends, It’s been so, so good living here with you. I have no idea whether I’ll get an O-1. I have no idea if the company will work out. But I believe none of this matters. This is the last show and tell and so I wanted to show <br><br>
 you my heart and offer it as colateral for our relationships going forward. Thank you so much, you are all wonderful.
 
-If I had time, I’d have written a shorter letter.
-
-Love,
-
-Igor : )
+<p style="color: grey;">
+If I had time, I’d have written a shorter letter.<br><br>
+Love,<br>
+Igor :)
+</p>
