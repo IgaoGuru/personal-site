@@ -7,6 +7,7 @@ tags: []
 ShowToc: true
 TocOpen: true
 layout: '../../layouts/EssayLayout.astro'
+hide: true
 ---
 # I don't think I'm very good at making things
 
