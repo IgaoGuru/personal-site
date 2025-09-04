@@ -1,0 +1,140 @@
+---
+import Layout from "../layouts/Layout.astro";
+import logoUrl from '../assets/sfcs-logo.png';
+const demoVideoUrl = "https://file.garden/aDx7rtkwXCXfZGMO/falso/sf-cybernetics-symposium.mp4"
+---
+
+<astro:head>
+	<title>San Francisco Cybernetics Symposium</title>
+	<meta name="description" content="A small gathering exploring feedback, emergence, and humane technology in San Francisco." />
+</astro:head>
+
+<Layout>
+	<main id="sfcs">
+		<div style="margin: 0 auto; max-width: 720px;">
+		<section class="poster">
+			<div class="logo-wrap">
+				<img class="logo" src={logoUrl.src} alt="San Francisco Cybernetics Symposium" />
+			</div>
+		</section>
+		<section class="copy">
+			<br />
+			<p>
+				In July 2025 we hosted the first San Francisco Cybernetics Symposium at <a href="https://nautilus.quest">Casa Nautilus</a>. It was a small gathering—about 30 people, with very different levels of familiarity with the topic. The goal was to introduce people to cybernetics, and use it as a lens for thinking about modern societal problems.
+			</p>
+			<br />
+			{demoVideoUrl && (
+				<video class="demo-video" autoplay muted loop playsinline preload="metadata" aria-label="Musicolor demo video">
+					<source src={demoVideoUrl} type="video/mp4" />
+				</video>
+			)}
+
+
+			<h2>Why</h2>
+			<p>
+				Cybernetics was born in the 1940s out of curiosity and optimism. It connected information theory, computation, biology, and design into a language for feedback, emergence, and adaptation. For a while it was everywhere, then fell out of fashion. But the questions never went away.
+			</p>
+			<p>
+				Today, the systems we live with—social, technical, ecological—are more complex, interconnected, and unstable than ever. Learning how to design for feedback and humane adaptation isn’t optional anymore, it’s existential.
+			</p>
+
+			<h2>The Event</h2>
+			<p>
+				The symposium was informal and hands-on. Alongside conversations, we had:
+			</p>
+			<ul class="bullets">
+				<li>Really good coffee</li>
+				<li>A screening of Cybernation</li>
+				<li>An interactive demo of Musicolor (after Gordon Pask)</li>
+				<li>A group exercise inspired by Stafford Beer’s Syntegration</li>
+				<li>A short reading list to take home</li>
+			</ul>
+
+			<h2>Musicolor</h2>
+			<p>
+				One of the highlights was Musicolor, a re-interpretation of Gordon Pask’s 1953 Musicolour machine. Pask was interested in the idea of conversation—not just between people, but between people and machines. His machine responded to how well someone played music, giving visual feedback in light and color.
+			</p>
+			<p>
+				Our version does something similar: the better you play, the more colorful it gets. A bar on the side shows how “good” your music sounds. It supports MIDI keyboards and other inputs.
+			</p>
+			<p>
+				For Pask, this was a model of intelligence: feedback as the core property of any adaptive system. In 2025, we’re still circling the same questions about intelligence and how to interpret it. Showing Musicolor at the symposium was a way to make that conversation tangible.
+			</p>
+		</section></div>
+	</main>
+</Layout>
+
+<style>
+	:root {
+		--sfcs-yellow: #ffe300;
+		--sfcs-black: #0a0a0a;
+	}
+
+	#sfcs {
+		min-height: 100vh;
+		background: var(--sfcs-yellow);
+		color: var(--sfcs-black);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.poster {
+		padding: 48px 0 16px 0;
+		display: grid;
+		grid-template-columns: 1fr auto;
+		align-items: start;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	.logo-wrap { display: block; }
+	.logo {
+		display: block;
+		width: clamp(240px, 48vw, 520px);
+		height: auto;
+	}
+
+	.copy {
+		max-width: 960px;
+		padding: 24px 0 64px 0;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+		font-size: 15px;
+		line-height: 1.5;
+	}
+
+	.demo-video {
+		display: block;
+		width: 100%;
+		max-width: 720px;
+		height: auto;
+		border: 2px solid var(--sfcs-black);
+		margin: 8px 0 16px 0;
+	}
+
+	.copy p {
+		margin: 0 0 16px 0;
+	}
+
+	.bullets {
+		list-style: none;
+		padding: 0;
+		margin: 16px 0 24px 0;
+	}
+
+	.bullets li::before {
+		content: "---- ";
+	}
+
+	.closing {
+		margin-top: 24px;
+		font-weight: 600;
+	}
+
+	@media (min-width: 880px) {
+		#sfcs {
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+	}
+</style>
+
