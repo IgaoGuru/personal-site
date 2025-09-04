@@ -24,7 +24,7 @@ const demoVideoUrl = "https://file.garden/aDx7rtkwXCXfZGMO/falso/sf-cybernetics-
 			</p>
 			<br />
 			{demoVideoUrl && (
-				<video class="demo-video" autoplay muted loop playsinline preload="metadata" aria-label="Musicolor demo video">
+				<video class="demo-video" autoplay muted loop playsinline preload="metadata" aria-label="sfcs demo video">
 					<source src={demoVideoUrl} type="video/mp4" />
 				</video>
 			)}
@@ -51,6 +51,11 @@ const demoVideoUrl = "https://file.garden/aDx7rtkwXCXfZGMO/falso/sf-cybernetics-
 			</ul>
 
 			<h2>Musicolor</h2>
+			{demoVideoUrl && (
+				<video class="demo-video" autoplay muted loop playsinline preload="metadata" aria-label="Musicolor demo video">
+					<source src={"https://file.garden/aDx7rtkwXCXfZGMO/falso/musicolour-demo.mp4"} type="video/mp4" />
+				</video>
+			)}
 			<p>
 				One of the highlights was Musicolor, a re-interpretation of Gordon Pask’s 1953 Musicolour machine. Pask was interested in the idea of conversation—not just between people, but between people and machines. His machine responded to how well someone played music, giving visual feedback in light and color.
 			</p>
