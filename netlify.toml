@@ -5,3 +5,9 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--version"
+
+[[redirects]]
+  from = "/edge-application"
+  to = "https://1drv.ms/w/c/9b7f5e43de77d275/EViUqXHP4xtCtuT-bRSlJMUBpYoiSFGfs4jDlOQ6nG84FQ?e=4OEMzG"
+  status = 301
+  force = true
