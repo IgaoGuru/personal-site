@@ -13,8 +13,8 @@ layout: '../../layouts/EssayLayout.astro'
 
 The I is naturally radiant, vibrant. It shines like a beacon in all directions.
 
-It's only when the I wakes up that hte tyranny of other parts may end. 
-Notice that other parts want to be governed, though some might not know it. Much like children. 
+It's only when the I wakes up that the tyranny of other parts may end. 
+Notice that other parts want to be governed, though some might not know it. Much like children, they want to be lead through love. 
 
 It is the I's job to wake up. That is its purpose. The I needn't use force or coersion or aggression on its parts, for it is their natural leader.
 
