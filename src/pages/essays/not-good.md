@@ -1,5 +1,5 @@
 ---
-title: "I don't think I'm very good at making things"
+title: "On being good at making things"
 date: "2025-06-12"
 description: "meditations on what is cool and what is scientific"
 summary: "I don't think I'm very good at making things. Maybe that's alright"
