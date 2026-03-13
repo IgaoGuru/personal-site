@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Mainframe from "../components/Mainframe.astro";
+import PlacesPage from "../components/PlacesPage";
+
+const isDev = import.meta.env.DEV;
+---
+
+<head>
+    <title>Places and Things</title>
+</head>
+
+<body>
+    <Layout>
+        <Mainframe>
+            <h1>Places and Things</h1>
+            <p style="color: #666; margin-bottom: 2rem;">A crooked timeline of where I've been and what I've made.</p>
+            
+            <PlacesPage client:load isDev={isDev} />
+        </Mainframe>
+    </Layout>
+</body>
