@@ -9,10 +9,9 @@ TocOpen: true
 layout: '../../layouts/EssayLayout.astro'
 hide: false
 ---
-# I don't think I'm very good at making things
 
 ## I.
-maybe I'm being too harsh on myself. But I do truly mean it, and it hurts my heart to say it.
+maybe I'm being too harsh on myself. But I do truly mean it, and it hurts my heart to say it. There's a chance I'm not that good at making things.
 I'm reminded of [this article on AstralCodexTen](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed) where Scott wrote about his desire and incapability of being a mathematician. That no matter how hard he tried, he simply couldn't get himself to like math. 
 
 Well, I like computers. I think I'm pretty OK at my job. At the things I have experience with (namely databases, vector search, web stuff and ML) I'm actually pretty good. But then again, it's not that getting here was a drag _per se_, it's just that I've been noticing that I'm _naturally good_ at other things, and that I'm _not so_ naturally good at the things related to my job.
