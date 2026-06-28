@@ -1,5 +1,41 @@
 ---
 import Mainframe from "../components/Mainframe.astro";
+
+interface Props {
+	frontmatter?: {
+		title?: string;
+		date?: string | Date;
+	};
+}
+
+const { frontmatter = {} } = Astro.props;
+const formatDate = (date: string | Date) =>
+	date instanceof Date ? date.toISOString().slice(0, 10) : date.slice(0, 10);
+const escapeHtml = (value: string) =>
+	value.replace(
+		/[&<>"']/g,
+		(character) =>
+			({
+				"&": "&amp;",
+				"<": "&lt;",
+				">": "&gt;",
+				'"': "&quot;",
+				"'": "&#39;",
+			})[character] ?? character,
+	);
+const formattedDate = frontmatter.date ? formatDate(frontmatter.date) : "";
+const content = await Astro.slots.render("default");
+const headingPattern = /(<h1\b[^>]*>[\s\S]*?<\/h1>)/;
+const titleMarkup = frontmatter.title
+	? `<h1>${escapeHtml(frontmatter.title)}</h1>`
+	: "";
+const dateMarkup = formattedDate
+	? `<p class="essay-date">${formattedDate}</p>`
+	: "";
+const headerMarkup = [titleMarkup, dateMarkup].filter(Boolean).join("\n");
+const contentWithDate = dateMarkup && headingPattern.test(content)
+	? content.replace(headingPattern, `$1\n${dateMarkup}`)
+	: [headerMarkup, content].filter(Boolean).join("\n");
 ---
 
 <!doctype html>
@@ -9,12 +45,12 @@ import Mainframe from "../components/Mainframe.astro";
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title> essay </title>
+		<title>{frontmatter.title ?? "essay"}</title>
 	</head>
 	<body>
-        <Mainframe buttons={["home", "essays"]}>
-            <slot />
-        </Mainframe>
+		<Mainframe buttons={["home", "essays"]}>
+			<div class="essay-content" set:html={contentWithDate} />
+		</Mainframe>
 	</body>
 </html>
 
@@ -26,5 +62,12 @@ import Mainframe from "../components/Mainframe.astro";
 		height: 100%;
 
 		font-family: 'Fira Code', monospace;
+	}
+
+	.essay-date {
+		color: #999;
+		font-size: 0.8rem;
+		margin-top: -0.5rem;
+		margin-bottom: 2rem;
 	}
 </style>
