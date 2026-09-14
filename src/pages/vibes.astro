@@ -1,0 +1,113 @@
+---
+import images from '../data/vibes.json';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A collection of images I like." />
+    <link rel="icon" href="/favicon.ico" />
+    <title>vibes</title>
+  </head>
+  <body>
+    <header><a href="/hello">← home</a><h1>vibe images</h1></header>
+    <p class="credit">inspired by <a href="https://girl.surgery/website_vibes/">girl surgery</a></p>
+    <main aria-label="Vibe images">
+      {images.map((image, index) => (
+        <a class="image" href={image.src} aria-label={`Open image ${index + 1}`}>
+          <img src={image.src} width={image.width} height={image.height}
+            alt="" loading="lazy" decoding="async" />
+        </a>
+      ))}
+    </main>
+  </body>
+</html>
+
+<style>
+  :global(body) { margin: 12px; background: white; color: #222; }
+  header { display: flex; align-items: baseline; gap: 24px; margin-bottom: 8px; font-family: monospace; }
+  h1 { font-size: 1rem; font-weight: normal; margin: 0; }
+  header a { color: inherit; }
+  .credit { margin: 0 0 24px; font-family: monospace; }
+  .credit a { color: inherit; }
+  main { position: relative; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px; }
+  .image { display: block; max-width: 100%; }
+  img { display: block; width: auto; height: auto; max-width: 100%; max-height: 500px; }
+  .image:focus-visible { outline: 3px solid #2457db; outline-offset: 5px; }
+  main.scattered { display: block; }
+  .scattered .image { position: absolute; }
+  .scattered img { width: 100%; height: 100%; max-height: none; }
+  @media (max-width: 599px) {
+    main { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .image { width: 100%; }
+    img { width: 100%; max-height: none; }
+  }
+</style>
+
+<script>
+  import { packImages } from '../utils/pack-images';
+  const gallery = document.querySelector('main')!;
+  const items = Array.from(gallery.querySelectorAll<HTMLAnchorElement>('.image'));
+  // Shuffle once per visit; retain that order when the viewport changes.
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
+  gallery.append(...items);
+  let lastWidth = 0;
+
+  function layout() {
+    const width = gallery.clientWidth;
+    if (width === lastWidth) return;
+    lastWidth = width;
+    gallery.classList.remove('scattered');
+    gallery.style.height = '';
+    items.forEach((item) => item.removeAttribute('style'));
+    if (window.innerWidth < 600) {
+      const columns = 2;
+      const gap = 8;
+      const columnWidth = (width - gap * (columns - 1)) / columns;
+      const bottoms = new Array<number>(columns).fill(0);
+      gallery.classList.add('scattered');
+      items.forEach((item) => {
+        const img = item.querySelector('img')!;
+        const height = columnWidth * Number(img.getAttribute('height')) / Number(img.getAttribute('width'));
+        const column = bottoms.indexOf(Math.min(...bottoms));
+        Object.assign(item.style, {
+          left: `${column * (columnWidth + gap)}px`, top: `${bottoms[column]}px`,
+          width: `${columnWidth}px`, height: `${height}px`,
+        });
+        bottoms[column] += height + gap;
+      });
+      gallery.style.height = `${Math.max(0, ...bottoms) - (items.length ? gap : 0)}px`;
+      return;
+    }
+
+    const sizes = items.map((item) => {
+      const img = item.querySelector('img')!;
+      const naturalW = Number(img.getAttribute('width'));
+      const naturalH = Number(img.getAttribute('height'));
+      const ratio = Math.max(naturalW / naturalH, naturalH / naturalW);
+      const area = ratio > 8 ? 40000 : ratio > 4 ? 60000 : 150000;
+      const enlargement = 1.25;
+      const scale = Math.min(1, enlargement * Math.sqrt(area / (naturalW * naturalH)),
+        Math.min(640 * enlargement, width) / naturalW, 600 * enlargement / naturalH);
+      return { w: naturalW * scale, h: naturalH * scale };
+    });
+    const { positions, height } = packImages(sizes, width);
+    gallery.classList.add('scattered');
+    items.forEach((item, index) => {
+      const { x, y, w, h } = positions[index];
+      Object.assign(item.style, { left: `${x}px`, top: `${y}px`, width: `${w}px`, height: `${h}px` });
+    });
+    gallery.style.height = `${Math.ceil(height)}px`;
+  }
+  layout();
+  let frame = 0;
+  new ResizeObserver(() => {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(layout);
+  }).observe(gallery);
+</script>

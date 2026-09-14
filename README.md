@@ -1,5 +1,19 @@
 # Astro Starter Kit: Basics
 
+## Vibe images
+
+The `/vibes` page uses optimized images committed in `public/vibes/` and a dimension manifest in `src/data/vibes.json`. It needs no runtime image service or access to the original folder during deployment.
+
+To import or refresh the collection:
+
+```sh
+pnpm import:vibes /absolute/path/to/important_images
+```
+
+The script reads JPEG, PNG, and WebP images without modifying the originals. It corrects orientation, fits each image within 1600 × 1600 pixels without upscaling, and writes WebP copies at quality 80 with metadata removed. Filenames are content hashes. Commit the generated images and manifest together with the page.
+
+The manifest reflects the selected source folder on each run. Old generated files are retained to keep existing image links working. Desktop placement uses rectangle packing with a 12-pixel gap: it tracks empty spaces, compares six arrangements, and picks the shortest result without resizing or cropping images. All six candidates derive from the shuffled input order instead of sorting by image size, so reloads vary the visible arrangement while resizing preserves it. Phones below 600 pixels use a compact two-column masonry layout with 8-pixel gaps. Images load lazily and link to their optimized copy. With JavaScript disabled, the gallery remains visible in a normal flow layout.
+
 ```sh
 pnpm create astro@latest -- --template basics
 ```
